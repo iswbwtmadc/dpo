@@ -1,8 +1,6 @@
 import streamlit as st
 from search import search
 
-sentence-transformers==1.0.3
-
 def handle_query(query):
     if 'спасибо' in query.lower() or 'благодар' in query.lower():
         response = 'Рад помочь! Чтобы изменить запрос или найти что-то еще, нажмите "Новый поиск".'
