@@ -1,7 +1,7 @@
 import streamlit as st
 from search import search
 
-!pip install sentence_transformers
+sentence-transformers==1.0.3
 
 def handle_query(query):
     if 'спасибо' in query.lower() or 'благодар' in query.lower():
